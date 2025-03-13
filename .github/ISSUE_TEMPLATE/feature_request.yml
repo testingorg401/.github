@@ -2,13 +2,23 @@ name: ✨Feature Request
 description: Request a new feature or enhancement
 labels: ["enhancement"]
 title: "[FEAT]: "
-projects: ["testingorg401/1", "testingorg401/2"]
 body:
   - type: markdown
     attributes:
       value: |
         Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues
 
+  - type: dropdown
+    id: project
+    attributes:
+      label: "Select Project"
+      description: "Choose the project to link this issue to."
+      options:
+        - label: "Project 1"
+          value: "testingorg401/1"
+        - label: "Project 2"
+          value: "testingorg401/2"
+          
   - type: textarea
     id: description
     attributes:
