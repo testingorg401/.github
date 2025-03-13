@@ -2,6 +2,7 @@ name: ✨Feature Request
 description: Request a new feature or enhancement
 labels: ["enhancement"]
 title: "[FEAT]: "
+projects: ["testingorg401/1", "testingorg401/2"]
 body:
   - type: markdown
     attributes:
