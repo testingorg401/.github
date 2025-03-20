@@ -1,6 +1,6 @@
 name: ✨Feature Request
 description: Request a new feature or enhancement
-labels: ["enhancement"]
+labels: ["feature"]
 title: "[FEAT]: "
 body:
   - type: markdown
@@ -14,11 +14,16 @@ body:
       label: "Select Project"
       description: "Choose the project to link this issue to."
       options:
-        - label: "Project 1"
+        - label: "MileStone planning"
+          value: "testingorg401/5"
+        - label: "Squad 1 scrum board"
           value: "testingorg401/1"
-        - label: "Project 2"
+        - label: "Squad 2 scrum board"
+          value: "testingorg401/4"
+        - label: "Squad 3 scrum board"
           value: "testingorg401/2"
-          
+        - label: "Squad 4 scrum board"
+          value: "testingorg401/6"
   - type: textarea
     id: description
     attributes:
