@@ -8,7 +8,22 @@ body:
     attributes:
       value: |
         Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues
-
+  - type: dropdown
+    id: project
+    attributes:
+      label: "Select Project"
+      description: "Choose the project to link this issue to."
+      options:
+        - label: "MileStone planning"
+          value: "testingorg401/5"
+        - label: "Squad 1 scrum board"
+          value: "testingorg401/1"
+        - label: "Squad 2 scrum board"
+          value: "testingorg401/4"
+        - label: "Squad 3 scrum board"
+          value: "testingorg401/2"
+        - label: "Squad 4 scrum board"
+          value: "testingorg401/6"
   - type: textarea
     id: description
     attributes:
