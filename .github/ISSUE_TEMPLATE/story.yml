@@ -3,6 +3,7 @@ description: Request a new story
 labels: ["story"]
 title: "[STORY]: "
 projects: ["testingorg401/5"]
+type: story
 body:
   - type: markdown
     attributes:
