@@ -1,7 +1,7 @@
 name: 📇Story
 description: Request a new story
-labels: ["enhancement"]
-title: "[FEAT]: "
+labels: ["story"]
+title: "[STORY]: "
 body:
   - type: markdown
     attributes:
