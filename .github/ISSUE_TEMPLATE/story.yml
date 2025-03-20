@@ -1,7 +1,7 @@
 name: 📇Story
 description: Request a new story
 labels: ["story"]
-title: "[STRY]: "
+title: "[STORY]: "
 projects: ["testingorg401/5"]
 body:
   - type: markdown
