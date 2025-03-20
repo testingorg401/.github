@@ -3,6 +3,7 @@ description: Request a new feature or enhancement
 labels: ["feature"]
 title: "[FEAT]: "
 projects: ["testingorg401/5"]
+type: feature
 body:
   - type: markdown
     attributes:
